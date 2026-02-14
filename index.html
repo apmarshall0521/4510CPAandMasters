@@ -1,0 +1,74 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CPA Pathway Analysis Results</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1 { color: #333; }
+            h2 { color: #666; margin-top: 30px; }
+            table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            img { max-width: 100%; height: auto; margin-bottom: 20px; border: 1px solid #ccc; }
+            .container { max-width: 800px; margin: 0 auto; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>CPA Pathway Analysis Results</h1>
+
+            <h2>Summary Table</h2>
+            <table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Awareness of Alternative Pathways</th>
+      <th>Count</th>
+      <th>Average_Intent_Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Very Aware</td>
+      <td>18</td>
+      <td>3.833333</td>
+    </tr>
+    <tr>
+      <td>Somewhat Aware</td>
+      <td>21</td>
+      <td>2.571429</td>
+    </tr>
+    <tr>
+      <td>Neutral</td>
+      <td>16</td>
+      <td>2.687500</td>
+    </tr>
+    <tr>
+      <td>Somewhat Unaware</td>
+      <td>26</td>
+      <td>3.423077</td>
+    </tr>
+    <tr>
+      <td>Not Aware</td>
+      <td>19</td>
+      <td>1.684211</td>
+    </tr>
+  </tbody>
+</table>
+
+            <h2>Visualizations</h2>
+
+            <h3>Intent Gap Bar Chart</h3>
+            <img src="analysis_results/intent_gap_bar_chart.png" alt="Intent Gap Bar Chart">
+
+            <h3>Correlation Heatmap</h3>
+            <img src="analysis_results/correlation_heatmap.png" alt="Correlation Heatmap">
+
+            <h3>Awareness Satisfaction Heatmap</h3>
+            <img src="analysis_results/awareness_satisfaction_heatmap.png" alt="Awareness Satisfaction Heatmap">
+
+        </div>
+    </body>
+    </html>
